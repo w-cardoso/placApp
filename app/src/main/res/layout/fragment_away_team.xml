@@ -31,7 +31,7 @@
     <EditText
             style="@style/input_wizard"
             android:hint="Ex.: Liverpool"
-            android:id="@+id/home_team_hint"
+            android:id="@+id/away_team_hint"
             app:layout_constraintStart_toStartOf="@+id/home_team_title"
             app:layout_constraintTop_toBottomOf="@+id/home_team_subtitle"
             android:layout_marginTop="32dp"
@@ -41,8 +41,9 @@
             style="@style/custom_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/btNext"
-            app:layout_constraintTop_toBottomOf="@+id/home_team_hint"
-            android:layout_marginTop="32dp" app:layout_constraintStart_toStartOf="@+id/home_team_title"
+            android:id="@+id/away_fragment_btn_next"
+            app:layout_constraintTop_toBottomOf="@+id/away_team_hint"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="@+id/home_team_title"
             app:layout_constraintEnd_toEndOf="@+id/home_team_title"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
