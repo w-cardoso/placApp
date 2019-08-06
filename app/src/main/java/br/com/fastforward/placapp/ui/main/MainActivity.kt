@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import br.com.fastforward.placapp.R
 import br.com.fastforward.placapp.ui.game.GameActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.startActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         main_btn_new_game.setOnClickListener {
-            startActivity(Intent(this, GameActivity::class.java))
+            startActivity<GameActivity>()
         }
 
         main_btn_exit.setOnClickListener {

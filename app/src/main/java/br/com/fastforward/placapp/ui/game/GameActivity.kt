@@ -16,6 +16,7 @@ import br.com.fastforward.placapp.ui.game.hometeam.HomeTeamFragment
 import br.com.fastforward.placapp.ui.score.ScoreActivity
 import kotlinx.android.synthetic.main.activity_game.*
 
+@Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class GameActivity : AppCompatActivity() {
 
     lateinit var gameViewModel: GameViewModel
